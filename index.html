@@ -14,11 +14,6 @@
 
         <div class="heading"></div>
 
-        <div>
-            <button onclick="loadGame('p3.js')">2 PLAYER MODE</button>
-            <button onclick="loadGame('p3com.js')">COMPUTER MODE</button>
-        </div>
-
         <div class="gameplay">
             <div class="box box1"></div>
             <div class="box box2"></div>
@@ -37,12 +32,8 @@
         </div>
     </div>
 
-    <script>
-        function loadGame(file) {
-            const script = document.createElement('script');
-            script.src = file;
-            document.body.appendChild(script);
-        }
-    </script>
+
+    <!-- <script src="p3.js"></script> -->
+    <script src="p3com.js"></script>
 </body>
 </html>
