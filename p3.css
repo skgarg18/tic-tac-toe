@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background: url(2309465.webp) no-repeat center/cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.heading{
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 10px 40px;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgb(157, 140, 140);
+    border-radius: 10px;
+    color: aliceblue;
+   
+}
+
+.gameplay{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    backdrop-filter: blur(15px);
+    border: 2px solid rgb(157, 140, 140);
+    padding: 10px;
+    
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.box1{
+    border-right: 2px solid aliceblue;
+    border-bottom: 2px solid aliceblue;
+}
+
+.box2{
+    border-bottom: 2px solid aliceblue;
+}
+.box3{
+    border-left: 2px solid aliceblue;
+    border-bottom: 2px solid aliceblue;
+}
+
+.box4{
+    border-right: 2px solid aliceblue;
+}
+
+.box6{
+    border-left: 2px solid aliceblue;
+}
+
+.box7{
+    border-right: 2px solid aliceblue;
+    border-top: 2px solid aliceblue;
+}
+.box8{
+    border-top: 2px solid aliceblue;
+}
+.box9{
+    border-left: 2px solid aliceblue;
+    border-top: 2px solid aliceblue;
+}
+
+button{
+    all: unset;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgb(157, 140, 140);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: aliceblue;
+    margin-top: 50px;
+    cursor: pointer;
+    display: none;
+}
+
+button:hover{
+    border: 3px solid rgb(0, 0, 0);
+    background: aliceblue;
+    color: black;
+    
+}
+
+.startnewgame{
+    display: flex;
+}
